@@ -1,6 +1,6 @@
 {
   "name": "fs-readdir-stream",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Replacement for fs.readdir that returns a real stream using Nativ OS Methods (find)",
   "main": "index.js",
   "scripts": {
