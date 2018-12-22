@@ -28,7 +28,7 @@ readdirStream(process.cwd()).observe(x=>console.log(x))
 
 ## Expert Usage
 
-Using the Most Stream Interface
+Using the Most Stream Interface https://github.com/cujojs/most/blob/master/docs/api.md
 
 ```js
 const findStreamMost = require('fs-readdir-stream/find-stream.most')
@@ -39,7 +39,7 @@ const readdirStream = findStreamMost('.',[options])
     .observe(x=>console.log(x))
 ```
 
-using the Node Stream Interface
+using the Node event Stream Interface
 
 ```js
 const findStreamNode = require('fs-readdir-stream/find-stream')

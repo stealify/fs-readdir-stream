@@ -10,8 +10,10 @@ const findNodeStream = require('./find-stream')
 const findMost = (dir,options) => fromEvent('data',findNodeStream(dir,options).stdout).map(d=>d.toString());
 /**
  * Usage:
- * const readdirStream = require('find-stream')
- * readdirStream(process.cwd()).observe(x=>console.log(x))
+  const options = '-maxdepth 1'
+  let options
+  const readdirStream = require('./find-stream.most')
+  readdirStream(process.cwd(),options).observe(x=>console.log(x))
  */
 module.exports = findMost
 
