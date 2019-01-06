@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/stealify/fs-readdir-stream#readme",
   "devDependencies": {
-    "most": "^1.7.3"
+    "most": "1.7.3"
   }
 }
